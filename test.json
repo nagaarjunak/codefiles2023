@@ -1,0 +1,45 @@
+[
+    {
+       "Name": "Nagarjuna",
+       "Sur Name": "KOla",
+       "FOOD": {
+          "Likes": [
+             "Oil foods",
+             "Spicy food"
+          ],
+          "Dislikes": [
+             "Chocklets",
+             "ice cream"
+          ]
+       }
+    },
+    {
+       "Name": "priyanka",
+       "Surnmae": "Kola",
+       "food": {
+          "Likes": [
+             "Chocklets",
+             "ice cream"
+          ],
+          "Dislikes": [
+             "Oil foods",
+             "Spicy food"
+          ]
+       }
+    },
+    {
+       "name": "Sravanthi",
+       "Sur Name": "Kola",
+       "Food": null,
+       "Likes": [
+          "Oil foods",
+          "Spicy foods"
+       ],
+       "Dislikes": [
+          "Junkfoods",
+          "Chocklets"
+       ]
+    }
+ ]
+
+
