@@ -1,0 +1,16 @@
+import boto3
+ec2=boto3.client('ec2',
+                    aws_access_key_id='AKIARBICDCLWUDIRFODY',
+                    aws_secret_access_key='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',
+                    region_name="us-east-1"
+                    )
+my_list=[]
+
+vms=ec2.describe_instances().get('Reservations',[])
+for vm in vms:
+    for v in vm['Instances']:
+        my_list.append(v['InstanceType'])
+        print(my_list)
+    
+print('*'* 25)
+
